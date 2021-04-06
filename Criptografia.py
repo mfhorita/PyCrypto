@@ -1,11 +1,10 @@
 # -*- coding: utf-8 -*-
 
-import os
 import json
 import string
 import requests
 
-from Cryptodome.Hash import SHA1
+from Crypto.Hash import SHA1  # pycryptodome
 
 
 # Web Scraping
